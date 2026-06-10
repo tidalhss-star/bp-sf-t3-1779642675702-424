@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 셔츠룸 블로그 | 주식투자자의 본능</title>
+    <meta name="description" content="마포 셔츠룸 블로그: 주식투자자들을 위한 날것 그대로의 인사이트. 브루탈리즘 디자인, 3-4px 솔리드 보더, 오버사이즈드 타이포. 전화 010-6279-0862.">
+    <meta name="keywords" content="마포 셔츠룸, 주식투자, 블로그, 투자전략, 마포, 셔츠룸, 브루탈리즘, 네온보이드, sf-t3, 01062790862">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <link rel="canonical" href="https://sf-t3-1779642675702-424.vercel.app/blog">
+    <meta property="og:title" content="마포 셔츠룸 블로그 | 주식투자자의 본능을 깨우다">
+    <meta property="og:description" content="마포 셔츠룸 블로그. 주식투자자들의 리얼 라운지. 브루탈리즘 디자인. 전화 010-6279-0862.">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        body { font-family: 'Arial Black', 'Impact', sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.4; min-height: 100vh; }
+        body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.015) 2px, rgba(255,255,255,0.015) 4px); pointer-events: none; z-index: 9999; }
+        a { color: #ff2a6d; text-decoration: none; border-bottom: 3px solid transparent; transition: all 0.1s; }
+        a:hover { color: #05d9e8; border-bottom-color: #ff2a6d; }
+        img, svg { max-width: 100%; display: block; }
+        h1, h2, h3, h4 { font-weight: 900; text-transform: uppercase; letter-spacing: -0.02em; }
+        .brutal-border { border: 4px solid #e0e0e0; box-shadow: 8px 8px 0 #ff2a6d; }
+        .brutal-border-accent { border: 4px solid #ff2a6d; box-shadow: 8px 8px 0 #05d9e8; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        nav { background: #0a0a0a; border-bottom: 4px solid #ff2a6d; padding: 15px 20px; position: sticky; top: 0; z-index: 1000; }
+        nav .container { display: flex; justify-content: space-between; align-items: center; }
+        nav .logo { font-size: 1.8rem; color: #05d9e8; border: none; }
+        nav .logo:hover { border: none; color: #ff2a6d; }
+        nav ul { list-style: none; display: flex; gap: 30px; }
+        nav ul li a { font-size: 1.2rem; font-weight: 900; text-transform: uppercase; padding: 5px 0; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
+        .hamburger span { width: 30px; height: 4px; background: #e0e0e0; transition: 0.3s; }
+        @media (max-width: 768px) {
+            .hamburger { display: flex; }
+            nav ul { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; width: 100%; background: #0a0a0a; border-bottom: 4px solid #ff2a6d; padding: 20px; gap: 15px; }
+            nav ul.active { display: flex; }
+            nav ul li a { font-size: 1.5rem; }
+            .container { padding: 0 15px; }
+        }
+        .hero { padding: 60px 0; text-align: center; }
+        .hero h1 { font-size: 4rem; color: #ff2a6d; text-shadow: 4px 4px 0 #05d9e8; margin-bottom: 20px; }
+        .hero p { font-size: 1.5rem; max-width: 700px; margin: 0 auto; }
+        .blog-post { padding: 40px 0; }
+        .blog-post .post-card { padding: 40px; margin-bottom: 40px; }
+        .blog-post .post-card h2 { font-size: 2.8rem; color: #05d9e8; margin-bottom: 20px; }
+        .blog-post .post-card .meta { font-size: 0.9rem; color: #888; margin-bottom: 20px; border-bottom: 2px solid #ff2a6d; padding-bottom: 10px; }
+        .blog-post .post-card p { font-size: 1.2rem; line-height: 1.6; margin-bottom: 20px; }
+        .blog-post .post-card .highlight { background: #ff2a6d; color: #0a0a0a; padding: 2px 8px; font-weight: 900; }
+        .cta-section { padding: 60px 0; text-align: center; }
+        .cta-section h3 { font-size: 3rem; color: #ff2a6d; margin-bottom: 20px; }
+        .cta-section .tel-link { font-size: 2rem; display: inline-block; padding: 15px 40px; background: #0a0a0a; color: #05d9e8; border: 4px solid #05d9e8; box-shadow: 8px 8px 0 #ff2a6d; text-transform: uppercase; }
+        .cta-section .tel-link:hover { background: #ff2a6d; color: #0a0a0a; border-color: #ff2a6d; }
+        footer { border-top: 4px solid #ff2a6d; padding: 30px 0; text-align: center; }
+        footer p { font-size: 1rem; color: #666; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">마포셔츠룸</a>
+            <div class="hamburger" onclick="document.querySelector('nav ul').classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </div>
+            <ul>
+                <li><a href="/">홈</a></li>
+                <li><a href="/about">소개</a></li>
+                <li><a href="/blog">블로그</a></li>
+                <li><a href="tel:01062790862">010-6279-0862</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>본능을 깨우는 블로그</h1>
+            <p>주식투자자들을 위한 날것 그대로의 인사이트. 가식은 버려라. 여기는 마포 셔츠룸이다.</p>
+        </div>
+    </section>
+
+    <section class="blog-post">
+        <div class="container">
+            <article class="post-card brutal-border">
+                <h2>주식시장은 약육강식이다. 너는 아직도 채식하냐?</h2>
+                <div class="meta">2024.01.15 | 마포 셔츠룸 에디터 | 조회 1,247</div>
+                <p>들어라. 주식시장은 공원이 아니다. 여기는 정글이고, 너는 포식자이거나 먹잇감일 뿐이다. 마포 셔츠룸에 오는 놈들은 다 안다. <span class="highlight">본능</span>을 믿고, 숫자에 미쳐야 산다는 걸.</p>
+                <p>차트를 봐라. 움직임이 보이냐? 그게 바로 피 냄새다. 기관이 던지면 너는 받아야 한다. 개미들은 항상 늦다. 왜? 생각이 너무 많아서 그래. <span class="highlight">본능</span>을 쫓아라. 셔츠룸에서 맥주 한 캔 까고 차트를 보면 답이 보인다.</p>
+                <p>내가 말한다. 3월까지 테크주를 쓸어담아라. 이유? 내 직감이다. 그리고 내 직감은 80% 적중한다. 증명은 못 한다. 하지만 마포 셔츠룸 단골들은 안다. 이 형 말이 틀린 적이 없다는 걸.</p>
+                <p>고민할 시간에 전화해라. <a href="tel:01062790862" style="border-bottom: 3px solid #05d9e8;">010-6279-0862</a>. 여기서 수다 떨면서 기회를 잡아라. 주식은 혼자 하는 게 아니다. 같이 미쳐야 큰다.</p>
+            </article>
+
+            <div class="cta-section">
+                <h3>지금 당장 움직여라</h3>
+                <p style="font-size:1.3rem; margin-bottom:30px;">수익은 기다려주지 않는다. 마포 셔츠룸이 니 전화를 기다린다.</p>
+                <a href="tel:01062790862" class="tel-link">010-6279-0862</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 마포 셔츠룸 | 주식투자자들의 라운지 | 서울 마포구 | 전화 010-6279-0862</p>
+            <p style="margin-top:10px; font-size:0.8rem; color:#444;">본 사이트는 정보 제공 목적이며, 투자 결정에 대한 책임은 본인에게 있습니다.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav ul').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
